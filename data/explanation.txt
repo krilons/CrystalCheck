@@ -1,0 +1,14 @@
+U04 is a very good example on the phi-scan angle comparisons. A03 is also ok. U3 us also a good example.
+
+
+U06 is an example of how I can conclude that it's not the same grain
+
+
+U05 is a good example of change from polycrystalline to single crystalline after treatment
+
+
+V01 is a very good example on the 2theta-scan before and after treatment 
+
+
+Should illustrate that tilt makes the phi-peaks disappear
+
