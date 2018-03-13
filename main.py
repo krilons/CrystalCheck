@@ -24,24 +24,24 @@ def getYValuesFromFile(filepath):
 
 def returnAllFilePathsToSamples():
 	filepaths = []
-	filepaths.append(["../data/KTH_Si1_bc_05_firstpeak.xy", "../data/KTH_Si1_bc_05_secondpeak.xy","../data/KTH_Si1_bc_05_thirdpeak.xy", ""  ])
-	filepaths.append(["../data_CrystalCheck/KTH_Si3_f1_02_firstpeak.xy", "../data_CrystalCheck/KTH_Si3_f1_02_secondpeak.xy","../data_CrystalCheck/KTH_Si3_f1_02_thirdpeak.xy", ""  ])
-	filepaths.append(["../data/KTH_Si5_b_03_firstpeak.xy", "../data/KTH_Si5_b_03_secondpeak.xy","../data/KTH_Si5_b_03_thirdpeak.xy", ""  ])
+	filepaths.append(["./data/KTH_Si1_bc_05_firstpeak.xy", "./data/KTH_Si1_bc_05_secondpeak.xy","./data/KTH_Si1_bc_05_thirdpeak.xy", ""  ])
+	filepaths.append(["./data_CrystalCheck/KTH_Si3_f1_02_firstpeak.xy", "./data_CrystalCheck/KTH_Si3_f1_02_secondpeak.xy","./data_CrystalCheck/KTH_Si3_f1_02_thirdpeak.xy", ""  ])
+	filepaths.append(["./data/KTH_Si5_b_03_firstpeak.xy", "./data/KTH_Si5_b_03_secondpeak.xy","./data/KTH_Si5_b_03_thirdpeak.xy", ""  ])
 
-	filepaths.append(["../data_CrystalCheck/DE35214_UMG_treated_U01_firstpeak_02.xy", "../data_CrystalCheck/DE35214_UMG_treated_U01_secondpeak_02.xy","../data_CrystalCheck/DE35214_UMG_treated_U01_thirdpeak_02.xy", ""  ])
-	filepaths.append(["../data/DE35214_UMG_treated_U04_02_firstpeak.xy", "../data/DE35214_UMG_treated_U04_02_secondpeak.xy","../data/DE35214_UMG_treated_U04_02_thirdpeak.xy", "../data/DE35214_UMG_treated_U04_02_fourthpeak.xy"  ])
-	filepaths.append(["../data/DE35214_UMG_treated_U03_firstpeak.xy", "../data/DE35214_UMG_treated_U03_secondpeak.xy","../data/DE35214_UMG_treated_U03_thirdpeak.xy", ""  ])
-	filepaths.append(["../data_CrystalCheck/DE35214_UMG_treated_U05_02_noslit_firstpeak.xy", "../data_CrystalCheck/DE35214_UMG_treated_U05_02_noslit_thirdpeak.xy","../data_CrystalCheck/DE35214_UMG_treated_U05_02_noslit_fifthpeak.xy", ""  ])
-	# filepaths.append(["../data_CrystalCheck/DE35214_UMG_treated_U06_firstpeak.xy", "../data_CrystalCheck/DE35214_UMG_treated_U06_fourthpeak.xy","../data_CrystalCheck/DE35214_UMG_treated_U06_fifthpeak.xy", ""  ])	
-	filepaths.append(["../data_CrystalCheck/DE35214_UMG_treated_V01_firstpeak.xy", "../data_CrystalCheck/DE35214_UMG_treated_V01_secondpeak.xy","../data_CrystalCheck/DE35214_UMG_treated_V01_fourthpeak.xy", ""  ])
+	filepaths.append(["./data_CrystalCheck/DE35214_UMG_treated_U01_firstpeak_02.xy", "./data_CrystalCheck/DE35214_UMG_treated_U01_secondpeak_02.xy","./data_CrystalCheck/DE35214_UMG_treated_U01_thirdpeak_02.xy", ""  ])
+	filepaths.append(["./data/DE35214_UMG_treated_U04_02_firstpeak.xy", "./data/DE35214_UMG_treated_U04_02_secondpeak.xy","./data/DE35214_UMG_treated_U04_02_thirdpeak.xy", "./data/DE35214_UMG_treated_U04_02_fourthpeak.xy"  ])
+	filepaths.append(["./data/DE35214_UMG_treated_U03_firstpeak.xy", "./data/DE35214_UMG_treated_U03_secondpeak.xy","./data/DE35214_UMG_treated_U03_thirdpeak.xy", ""  ])
+	filepaths.append(["./data_CrystalCheck/DE35214_UMG_treated_U05_02_noslit_firstpeak.xy", "./data_CrystalCheck/DE35214_UMG_treated_U05_02_noslit_thirdpeak.xy","./data_CrystalCheck/DE35214_UMG_treated_U05_02_noslit_fifthpeak.xy", ""  ])
+	# filepaths.append(["./data_CrystalCheck/DE35214_UMG_treated_U06_firstpeak.xy", "./data_CrystalCheck/DE35214_UMG_treated_U06_fourthpeak.xy","./data_CrystalCheck/DE35214_UMG_treated_U06_fifthpeak.xy", ""  ])	
+	filepaths.append(["./data_CrystalCheck/DE35214_UMG_treated_V01_firstpeak.xy", "./data_CrystalCheck/DE35214_UMG_treated_V01_secondpeak.xy","./data_CrystalCheck/DE35214_UMG_treated_V01_fourthpeak.xy", ""  ])
 
-	filepaths.append(["../data_CrystalCheck/DA34316_O212_untreated_A04_firstpeak.xy", "../data_CrystalCheck/DA34316_O212_untreated_A04_secondpeak.xy","../data_CrystalCheck/DA34316_O212_untreated_A04_thirdpeak.xy", ""  ])
-	filepaths.append(["../data_CrystalCheck/DA34316_O212_untreated_B01_firstpeak.xy", "../data_CrystalCheck/DA34316_O212_untreated_B01_secondpeak.xy","../data_CrystalCheck/DA34316_O212_untreated_B01_thirdpeak.xy", ""  ])
-	filepaths.append(["../data_CrystalCheck/DA34316_O212_untreated_C05_firstpeak.xy", "../data_CrystalCheck/DA34316_O212_untreated_C05_secondpeak.xy","../data_CrystalCheck/DA34316_O212_untreated_C05_thirdpeak.xy", ""  ])
-	filepaths.append(["../data_CrystalCheck/DA34416_E944_untreated_E01_firstpeak.xy", "../data_CrystalCheck/DA34416_E944_untreated_E01_secondpeak.xy","../data_CrystalCheck/DA34416_E944_untreated_E01_thirdpeak.xy", ""  ])
-	filepaths.append(["../data_CrystalCheck/DA34316_O212_treated_A03_firstpeak.xy", "../data_CrystalCheck/DA34316_O212_treated_A03_secondpeak.xy","../data_CrystalCheck/DA34316_O212_treated_A03_thirdpeak.xy", ""  ])
-	filepaths.append(["../data_CrystalCheck/DA34316_O212_treated_A06_firstpeak_02.xy", "../data_CrystalCheck/DA34316_O212_treated_A06_secondpeak_02.xy","../data_CrystalCheck/DA34316_O212_treated_A06_thirdpeak_02.xy", ""  ])
-	filepaths.append(["../data_CrystalCheck/DA34316_O212_treated_C05_02_firstpeak.xy", "../data_CrystalCheck/DA34316_O212_treated_C05_02_secondpeak.xy","../data_CrystalCheck/DA34316_O212_treated_C05_02_thirdpeak.xy", ""  ])
+	filepaths.append(["./data_CrystalCheck/DA34316_O212_untreated_A04_firstpeak.xy", "./data_CrystalCheck/DA34316_O212_untreated_A04_secondpeak.xy","./data_CrystalCheck/DA34316_O212_untreated_A04_thirdpeak.xy", ""  ])
+	filepaths.append(["./data_CrystalCheck/DA34316_O212_untreated_B01_firstpeak.xy", "./data_CrystalCheck/DA34316_O212_untreated_B01_secondpeak.xy","./data_CrystalCheck/DA34316_O212_untreated_B01_thirdpeak.xy", ""  ])
+	filepaths.append(["./data_CrystalCheck/DA34316_O212_untreated_C05_firstpeak.xy", "./data_CrystalCheck/DA34316_O212_untreated_C05_secondpeak.xy","./data_CrystalCheck/DA34316_O212_untreated_C05_thirdpeak.xy", ""  ])
+	filepaths.append(["./data_CrystalCheck/DA34416_E944_untreated_E01_firstpeak.xy", "./data_CrystalCheck/DA34416_E944_untreated_E01_secondpeak.xy","./data_CrystalCheck/DA34416_E944_untreated_E01_thirdpeak.xy", ""  ])
+	filepaths.append(["./data_CrystalCheck/DA34316_O212_treated_A03_firstpeak.xy", "./data_CrystalCheck/DA34316_O212_treated_A03_secondpeak.xy","./data_CrystalCheck/DA34316_O212_treated_A03_thirdpeak.xy", ""  ])
+	filepaths.append(["./data_CrystalCheck/DA34316_O212_treated_A06_firstpeak_02.xy", "./data_CrystalCheck/DA34316_O212_treated_A06_secondpeak_02.xy","./data_CrystalCheck/DA34316_O212_treated_A06_thirdpeak_02.xy", ""  ])
+	filepaths.append(["./data_CrystalCheck/DA34316_O212_treated_C05_02_firstpeak.xy", "./data_CrystalCheck/DA34316_O212_treated_C05_02_secondpeak.xy","./data_CrystalCheck/DA34316_O212_treated_C05_02_thirdpeak.xy", ""  ])
 
 	
 	return filepaths
